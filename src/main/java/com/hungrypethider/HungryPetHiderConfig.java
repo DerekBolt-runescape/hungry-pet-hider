@@ -17,7 +17,7 @@ public interface HungryPetHiderConfig extends Config
 	)
 	default String followerName()
 	{
-		return "puppy";
+		return "Labrador puppy";
 	}
 
 	@ConfigItem(
@@ -28,7 +28,7 @@ public interface HungryPetHiderConfig extends Config
 	)
 	default String hungryPattern()
 	{
-		return "Your puppy is very hungry";
+		return "Your puppy is very hungry.";
 	}
 
 	@ConfigItem(
@@ -39,7 +39,7 @@ public interface HungryPetHiderConfig extends Config
 	)
 	default String fedPattern()
 	{
-		return "(?:gobbles|devours|wolfs down|munches)";
+		return "";
 	}
 
 	@ConfigItem(
@@ -50,7 +50,7 @@ public interface HungryPetHiderConfig extends Config
 	)
 	default boolean itemOnPetCountsAsFed()
 	{
-		return false;
+		return true;
 	}
 
 	@ConfigItem(
